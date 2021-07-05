@@ -1,0 +1,31 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.container{
+    margin: 0 auto;
+    max-width: 960px;
+    width: 96%;
+}
+.navbar{
+    background-color: #e6e6e6;
+    width: 100%;
+    height: 70px;
+}
+.navbar ul{
+    width: auto;
+    float: right;
+    margin: 10px;
+}
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 15px;
+}
+.navbar ul li a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(71, 69, 69);
+    font-size: 18px;
+    font-weight: bold;
+}
