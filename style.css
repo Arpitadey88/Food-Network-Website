@@ -1,10 +1,10 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
 .container{
     margin: 0 auto;
-    max-width: 960px;
+    max-width: 1080px;
     width: 96%;
 }
 /* navigation menu---------- */
@@ -32,7 +32,8 @@ body{
     font-weight: bold;
 }
 /* --------------*************----------- */
-/* --------------SECTION AREA------------ */
+
+/* --------------Banner Area--------------- */
 h1{
     font-size: 50px;
     font-weight: 900;
@@ -42,7 +43,9 @@ h1{
     color: orange;
 }
 .banner-area{
-    background-color: papayawhip;
+    background-image: url(img/Frame1-2.png);
+    background-repeat: no-repeat;
+    background-position: left;
     display: flex;
 }
 .main-area{
@@ -57,11 +60,78 @@ h1{
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
-    padding: 12px 40px;
+    padding: 25px 50px;
     position: relative;
-    top: 20px;
+    top: 60px;
     color: white;
     font-weight: bold;
     border-radius: 50px;
+}
+/* --------------************------------ */
+/* --------------About Area--------------- */
+.about-area{
+    display: flex;
+    background-image: url(img/Frame1-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 40px;
+}
+.about-area img{
+    width: 80%;
+}
+h2{
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(71, 69, 69);
+}
+.about-area h2{
+    margin-top: 100px;
+}
+/* --------------************------------ */
+/* --------------Recipie Area--------------- */
+.recipie-area{
+    margin-top: 40px;
+}
+.recipie-area h2{
+    text-align: center;
+    font-size: 40px;
+}
+.recipie-area p{
+    text-align: center;
+}
+.inner-recipie-area{
+    display: flex;
+}
+.recipie-item{
+    background-color: whitesmoke;
+    width: 30%;
+    margin: 25px;
+    border: 15px solid whitesmoke;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+ .inner-recipie-area img{
+    width: 100%;
+    border-radius: 20px ;
+} 
+.recipie-item h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+.recipie-item p{
+    text-align: left;
+}
+/* --------------************------------ */
+
+/* --------------Social Inquiry Area--------------- */
+.social-inquiry-area{
+    width: 100%;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray; 
+}
+.media-item{
+   width: 35%;
 }
 /* --------------************------------ */
