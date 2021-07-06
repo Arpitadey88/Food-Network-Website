@@ -1,4 +1,6 @@
-/* ---------------Common CSS---------------- */
+/* =========================================
+common css
+==========================================*/
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -16,9 +18,10 @@ h2{
 h3{
     font-size: 25px;
 }
-/* ------------************---------------*/
 
-/* --------------Navigation Area---------- */
+/* =========================================
+Navigation Area
+==========================================*/
 .navbar{
     background-color: #e6e6e6;
     width: 100%;
@@ -46,9 +49,10 @@ h3{
     border: 5px solid orange;
     padding: 2px;
 }
-/* --------------*************----------- */
 
-/* --------------Banner Area--------------- */
+/* =========================================
+Banner Area
+==========================================*/
 .orange{
     color: orange;
 }
@@ -74,9 +78,10 @@ h3{
     font-weight: bold;
     border-radius: 50px;
 }
-/* --------------************------------ */
 
-/* --------------About Area----------------- */
+/* =========================================
+About Area
+==========================================*/
 .about-area{
     display: flex;
     padding: 70px;
@@ -90,9 +95,10 @@ h3{
 .about-area h2{
     margin-top: 100px;
 }
-/* --------------************------------ */
 
-/* --------------Recipie Area--------------- */
+/* =========================================
+Recipie Area
+==========================================*/
 .recipie-area{
     padding: 70px;
 }
@@ -107,7 +113,6 @@ h3{
     display: flex;
 }
 .recipie-item{
-    background-color: whitesmoke;
     width: 30%;
     margin: 25px;
     border: 15px solid whitesmoke;
@@ -116,7 +121,7 @@ h3{
 }
  .inner-recipie-area img{
     width: 100%;
-    border-radius: 20px ;
+    border-radius: 10px ;
 } 
 .recipie-item h3{
     font-size: 25px;
@@ -126,11 +131,12 @@ h3{
 .recipie-item p{
     text-align: left;
 }
-/* --------------************------------ */
 
-/* --------------Social Inquiry Area--------------- */
-.social-inquiry-area{
-    margin: 40px 90px;
+/* =========================================
+Social Inquiry Area
+========================================== */
+.social-inquiry-area {
+    margin: 60px 90px;
     display: flex;
     border-radius: 20px;
     box-shadow: 10px 10px 40px gray; 
@@ -140,10 +146,68 @@ h3{
    padding: 30px;
    text-align: center;
 }
-/* --------------************------------ */
 
-/* --------------Social Inquiry Area--------------- */
+/* =========================================
+Information Area
+==========================================*/
+.information-area{
+    margin-top: 120px;
+}
+.inner-container{
+    display: flex;
+    margin: 40px 90px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 50px gray;
+}
+.content-area{
+    padding: 2%;
+    margin: 10px 10px;
+    width: 50%;
+}
+.content-area h3{
+    color: #666666;
+    font-size: 16px;
+    padding-top: 5px;
+}
+.content-area p{
+    color: #666666;
+    font-size: 14px;
+    margin-top: 0;
+    line-height: 1.7em;
+    padding-top: 0;
+}
+.content-area p a{
+    color: #b92d1f;
+    text-decoration: none;
+}
+.content-area input{
+    background: #f2f2f2;
+    border: 0px solid;
+    border-radius: 10px;
+    padding: 10px 5%;
+    margin-bottom: 10px;
+    width: 90%;
+}
+.content-area textarea{
+    background: #f2f2f2;
+    font-size: 16px;
+    border: 0px solid;
+    border-radius: 10px;
+    padding: 10px 5%;
+    margin-bottom: 10px;
+    width: 90%;
+}
+.content-area input[type=submit]{
+    width: 80px;
+    color: #b92d1f;
+    cursor: pointer;
+}
+
+/* =========================================
+Footer Area
+==========================================*/
 footer{
+    margin-top: 120px;
     padding: 50px;
     background-color: black;
     text-align: center;
@@ -159,4 +223,4 @@ footer{
     font-size: 12px;
     color: gray;
 }
-/* --------------************------------ */
+/* -------End of CSS------------ */
