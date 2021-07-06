@@ -1,13 +1,24 @@
+/* ---------------Common CSS---------------- */
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
-.container{
-    margin: 0 auto;
-    max-width: 1080px;
-    width: 96%;
+h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(71, 69, 69);
 }
-/* navigation menu---------- */
+h2{
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(71, 69, 69);
+}
+h3{
+    font-size: 25px;
+}
+/* ------------************---------------*/
+
+/* --------------Navigation Area---------- */
 .navbar{
     background-color: #e6e6e6;
     width: 100%;
@@ -31,22 +42,19 @@ body{
     font-size: 18px;
     font-weight: bold;
 }
+#special{
+    border: 5px solid orange;
+    padding: 2px;
+}
 /* --------------*************----------- */
 
 /* --------------Banner Area--------------- */
-h1{
-    font-size: 50px;
-    font-weight: 900;
-    color: rgb(71, 69, 69);
-}
 .orange{
     color: orange;
 }
 .banner-area{
-    background-image: url(img/Frame1-2.png);
-    background-repeat: no-repeat;
-    background-position: left;
     display: flex;
+    padding: 70px;
 }
 .main-area{
     width: 50%;
@@ -55,7 +63,6 @@ h1{
 .main-area img{
     width: 80%;
     height: 450px;
-    margin: 40px;
 }
 .link-button{
     text-decoration: none;
@@ -68,29 +75,26 @@ h1{
     border-radius: 50px;
 }
 /* --------------************------------ */
-/* --------------About Area--------------- */
+
+/* --------------About Area----------------- */
 .about-area{
     display: flex;
-    background-image: url(img/Frame1-1.png);
+    padding: 70px;
+    background-image: url(img/Frame2.png);
     background-repeat: no-repeat;
-    background-position: right;
     margin-top: 40px;
 }
 .about-area img{
     width: 80%;
 }
-h2{
-    font-size: 40px;
-    font-weight: 900;
-    color: rgb(71, 69, 69);
-}
 .about-area h2{
     margin-top: 100px;
 }
 /* --------------************------------ */
+
 /* --------------Recipie Area--------------- */
 .recipie-area{
-    margin-top: 40px;
+    padding: 70px;
 }
 .recipie-area h2{
     text-align: center;
@@ -126,12 +130,33 @@ h2{
 
 /* --------------Social Inquiry Area--------------- */
 .social-inquiry-area{
-    width: 100%;
+    margin: 40px 90px;
     display: flex;
     border-radius: 20px;
     box-shadow: 10px 10px 40px gray; 
 }
 .media-item{
-   width: 35%;
+   margin: 20px 80px;
+   padding: 30px;
+   text-align: center;
+}
+/* --------------************------------ */
+
+/* --------------Social Inquiry Area--------------- */
+footer{
+    padding: 50px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.gray{
+    color: gray;
+}
+#copyright{
+    float: left;
+    margin: 35px 40px;
+    background-color: rgb(43, 40, 40);
+    font-size: 12px;
+    color: gray;
 }
 /* --------------************------------ */
