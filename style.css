@@ -2,6 +2,7 @@
 common css
 ==========================================*/
 body{
+    background-color: cornsilk;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
@@ -10,7 +11,7 @@ h1{
     font-weight: 900;
     color: rgb(71, 69, 69);
 }
-h2{
+h2, .media-size{
     font-size: 40px;
     font-weight: 900;
     color: rgb(71, 69, 69);
@@ -26,7 +27,6 @@ Navigation Area
     background-color: #e6e6e6;
     width: 100%;
     height: 70px;
-    margin-bottom: 40px;
 }
 .navbar ul{
     width: auto;
@@ -58,14 +58,14 @@ Banner Area
 }
 .banner-area{
     display: flex;
-    padding: 70px;
+    padding: 10px 60px;
 }
 .main-area{
     width: 50%;
     padding-left: 2%;
 }
 .main-area img{
-    width: 80%;
+    width: 100%;
     height: 450px;
 }
 .link-button{
@@ -84,13 +84,14 @@ About Area
 ==========================================*/
 .about-area{
     display: flex;
-    padding: 70px;
+    /* padding: 70px; */
     background-image: url(img/Frame2.png);
     background-repeat: no-repeat;
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 .about-area img{
     width: 80%;
+    padding: 0 40px;
 }
 .about-area h2{
     margin-top: 100px;
@@ -100,7 +101,7 @@ About Area
 Recipie Area
 ==========================================*/
 .recipie-area{
-    padding: 70px;
+    padding: 20px 70px;
 }
 .recipie-area h2{
     text-align: center;
@@ -113,9 +114,10 @@ Recipie Area
     display: flex;
 }
 .recipie-item{
+    padding: 10px;
     width: 30%;
     margin: 25px;
-    border: 15px solid whitesmoke;
+    border: 1px solid whitesmoke;
     border-radius: 20px;
     box-shadow: 10px 10px 40px gray;
 }
@@ -136,13 +138,13 @@ Recipie Area
 Social Inquiry Area
 ========================================== */
 .social-inquiry-area {
-    margin: 60px 90px;
+    margin: 40px 90px;
     display: flex;
     border-radius: 20px;
     box-shadow: 10px 10px 40px gray; 
 }
 .media-item{
-   margin: 20px 80px;
+   margin: 10px 80px;
    padding: 30px;
    text-align: center;
 }
@@ -151,7 +153,7 @@ Social Inquiry Area
 Information Area
 ==========================================*/
 .information-area{
-    margin-top: 120px;
+    margin-top: 70px;
 }
 .inner-container{
     display: flex;
@@ -166,22 +168,26 @@ Information Area
 }
 .content-area h3{
     color: #666666;
+    background-color: #e6e6e6;
     font-size: 16px;
-    padding-top: 5px;
+    padding: 10px 4px;
+    border-radius:10px;
 }
 .content-area p{
     color: #666666;
+    background-color: #e6e6e6;
     font-size: 14px;
     margin-top: 0;
     line-height: 1.7em;
-    padding-top: 0;
+    padding: 6px 4px;
+    border-radius:10px;
 }
 .content-area p a{
     color: #b92d1f;
     text-decoration: none;
 }
 .content-area input{
-    background: #f2f2f2;
+    background: #e6e6e6;
     border: 0px solid;
     border-radius: 10px;
     padding: 10px 5%;
@@ -189,7 +195,7 @@ Information Area
     width: 90%;
 }
 .content-area textarea{
-    background: #f2f2f2;
+    background: #e6e6e6;
     font-size: 16px;
     border: 0px solid;
     border-radius: 10px;
@@ -207,20 +213,20 @@ Information Area
 Footer Area
 ==========================================*/
 footer{
-    margin-top: 120px;
-    padding: 50px;
+    border: 1px solid;
+    margin-top: 70px;
     background-color: black;
     text-align: center;
     color: white;
 }
-.gray{
+.gray, #copyright{
     color: gray;
 }
 #copyright{
-    float: left;
-    margin: 35px 40px;
-    background-color: rgb(43, 40, 40);
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
     font-size: 12px;
-    color: gray;
 }
 /* -------End of CSS------------ */
